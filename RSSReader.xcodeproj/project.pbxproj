@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28436B101310EEDF00B0C136 /* MyXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28436B0F1310EEDF00B0C136 /* MyXMLParserDelegate.m */; };
 		288F9419130C42BB001850FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288F9418130C42BB001850FB /* Foundation.framework */; };
 		288F941C130C42BB001850FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288F941B130C42BB001850FB /* main.m */; };
+		28AAA3FD1310C66F006F9D01 /* settings.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28AAA3FB1310C46F006F9D01 /* settings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		288F9412130C42BB001850FB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = .;
+			dstSubfolderSpec = 16;
 			files = (
+				28AAA3FD1310C66F006F9D01 /* settings.plist in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28436B0E1310EEDF00B0C136 /* MyXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyXMLParserDelegate.h; sourceTree = "<group>"; };
+		28436B0F1310EEDF00B0C136 /* MyXMLParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyXMLParserDelegate.m; sourceTree = "<group>"; };
+		28436B11131228CE00B0C136 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		288F9414130C42BB001850FB /* RSSReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RSSReader; sourceTree = BUILT_PRODUCTS_DIR; };
 		288F9418130C42BB001850FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		288F941B130C42BB001850FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		288F941E130C42BB001850FB /* RSSReader-Prefix.pch */ = {isa = PBXFileReference; path = "RSSReader-Prefix.pch"; sourceTree = "<group>"; };
-		288F941F130C42BB001850FB /* RSSReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RSSReader.1; sourceTree = "<group>"; };
+		288F941E130C42BB001850FB /* RSSReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Prefix.pch"; sourceTree = "<group>"; };
+		28AAA3FB1310C46F006F9D01 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				288F941B130C42BB001850FB /* main.m */,
-				288F941F130C42BB001850FB /* RSSReader.1 */,
+				28436B0E1310EEDF00B0C136 /* MyXMLParserDelegate.h */,
+				28436B0F1310EEDF00B0C136 /* MyXMLParserDelegate.m */,
+				28AAA3FB1310C46F006F9D01 /* settings.plist */,
 				288F941D130C42BB001850FB /* Supporting Files */,
+				28436B11131228CE00B0C136 /* ReadMe */,
 			);
 			path = RSSReader;
 			sourceTree = "<group>";
@@ -134,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				288F941C130C42BB001850FB /* main.m in Sources */,
+				28436B101310EEDF00B0C136 /* MyXMLParserDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +226,7 @@
 				288F9424130C42BB001850FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

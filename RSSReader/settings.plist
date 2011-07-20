@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>Feeds</key>
+		<array>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>FeedURL</key>
+				<string>http://images.apple.com/main/rss/hotnews/hotnews.rss</string>
+				<key>MaxNewsItems</key>
+				<integer>10</integer>
+				<key>DescMax</key>
+				<integer>30</integer>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>FeedURL</key>
+				<string>http://daringfireball.net/index.xml</string>
+				<key>MaxNewsItems</key>
+				<integer>10</integer>
+				<key>DescMax</key>
+				<integer>30</integer>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<false/>
+				<key>FeedURL</key>
+				<string>http://images.apple.com/main/rss/hotnews/hotnews.rss</string>
+				<key>MaxNewsItems</key>
+				<integer>10</integer>
+				<key>DescMax</key>
+				<string>30</string>
+			</dict>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>FeedURL</key>
+				<string>http://news.ycombinator.com/news</string>
+				<key>MaxNewsItems</key>
+				<integer>10</integer>
+				<key>DescMax</key>
+				<integer>30</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
